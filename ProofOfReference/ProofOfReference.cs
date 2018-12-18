@@ -41,7 +41,7 @@ namespace ProofOfReference
             Console.WriteLine("passing localTestList to FourthMethod (will create a new List)");
             FourthMethod(localTestList);
             Console.WriteLine("back in 3rd Method. ");
-            Console.WriteLine("localTestList.Count (expected 0)");
+            Console.WriteLine("localTestList.Count (expected 0) my bad result is 3");
             Console.WriteLine(localTestList.Count); //will show 0
 
             Console.WriteLine("passing class member testList to fifthmethod(will add 2 integer)");
